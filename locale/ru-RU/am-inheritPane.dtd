@@ -1,0 +1,4 @@
+<!ENTITY enabled "Разрешено">
+<!ENTITY default "Использовать параметры по умолчанию">
+<!ENTITY inheritedProperties "Наследовать свойства">
+<!ENTITY indexInGlobalDatabase "Индексировать в глобальной базе данных">

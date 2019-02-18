@@ -1,0 +1,25 @@
+<!ENTITY colJunkPercent.label "Junk &#037;">
+<!ENTITY colJunkPercent.tooltiptext "Click to sort by Junk &#037;">
+<!ENTITY colJunkStatusPlus.label "Junk Status +">
+<!ENTITY colJunkStatusPlus.tooltiptext "Click to sort by Junk Status +">
+<!ENTITY junquilla.maximumJunkTokens "Maximum token count">
+<!ENTITY junquilla.maximumJunkTokens.accesskey "X">
+<!ENTITY junquilla.junkThreshold "Junk threshold">
+<!ENTITY junquilla.junkThreshold.accesskey "J">
+<!ENTITY junquilla.uncertainFolders "Uncertain folders">
+<!ENTITY junquilla.add "Add">
+<!ENTITY junquilla.remove "Remove">
+<!ENTITY junquilla.detailTitle "Junk Analysis Detail">
+<!ENTITY junquilla.detail.label "Junk Analysis Detail">
+<!ENTITY junquilla.detail.accesskey "D">
+<!ENTITY junquilla.token "Token">
+<!ENTITY junquilla.tokenPercent "Token &#037;">
+<!ENTITY junquilla.runningPercent "Running &#037;">
+<!ENTITY junquilla.totalTokenCount "Current token count">
+<!ENTITY junquilla.goodMessagesTrained "Good messages trained">
+<!ENTITY junquilla.junkMessagesTrained "Junk messages trained">
+<!ENTITY junquilla.junquilla "JunQuilla">
+<!ENTITY junquilla.isJunk.tooltip "Mark and train the selected messages as junk">
+<!ENTITY junquilla.isGood.tooltip "Mark and train the selected messages as good">
+<!ENTITY junquilla.isJunk "Is Junk">
+<!ENTITY junquilla.isGood "Is Good">

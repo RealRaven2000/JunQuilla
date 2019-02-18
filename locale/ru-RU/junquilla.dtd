@@ -1,0 +1,25 @@
+<!ENTITY colJunkPercent.label "Вероятность спама в &#037;">
+<!ENTITY colJunkPercent.tooltiptext "Нажать для сортировки по вероятности спама в &#037;">
+<!ENTITY colJunkStatusPlus.label "Спам-статус +">
+<!ENTITY colJunkStatusPlus.tooltiptext "Нажать для сортировки по спам-статусу +">
+<!ENTITY junquilla.maximumJunkTokens "Макс. кол-во признаков ">
+<!ENTITY junquilla.maximumJunkTokens.accesskey "м">
+<!ENTITY junquilla.junkThreshold "Порог спам-фильтра, &#037;">
+<!ENTITY junquilla.junkThreshold.accesskey "п">
+<!ENTITY junquilla.uncertainFolders "Неопределенные папки">
+<!ENTITY junquilla.add "Добавить">
+<!ENTITY junquilla.remove "Убрать">
+<!ENTITY junquilla.detailTitle "О признаках спама в сообщении">
+<!ENTITY junquilla.detail.label "О признаках спама в сообщении">
+<!ENTITY junquilla.detail.accesskey "з">
+<!ENTITY junquilla.token "Признаки данного сообщения">
+<!ENTITY junquilla.tokenPercent "Вероятность, &#037;">
+<!ENTITY junquilla.runningPercent "Итог, &#037;">
+<!ENTITY junquilla.totalTokenCount "Текущее кол-во признаков">
+<!ENTITY junquilla.goodMessagesTrained "Хорошим сообщениям обучен">
+<!ENTITY junquilla.junkMessagesTrained "Спам-сообщениям обучен">
+<!ENTITY junquilla.junquilla "JunQuilla">
+<!ENTITY junquilla.isJunk.tooltip "Отметить и обучить выбранные сообщения как спам">
+<!ENTITY junquilla.isGood.tooltip "Отметить и обучить выбранные сообщения как хорошие">
+<!ENTITY junquilla.isJunk "Это спам">
+<!ENTITY junquilla.isGood "Это хорошее">

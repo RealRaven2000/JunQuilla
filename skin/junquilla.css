@@ -1,0 +1,50 @@
+#folderTree treechildren::-moz-tree-image(folderNameCol, junquillaUncertain, hasMessages-true) {
+  list-style-image: url("chrome://junquilla/skin/junkquestion.png");
+  font-weight: bold;
+}
+
+#folderTree treechildren::-moz-tree-image(folderNameCol, junquillaUncertain, hasMessages-false) {
+  list-style-image: url("chrome://junquilla/skin/unreadmail.png");
+  font-weight: normal;
+}
+
+#junquillaCorpusGrid {
+  text-align: right;
+}
+
+#IsJunkButton {
+  list-style-image: url("chrome://junquilla/skin/junkuser24.png");
+}
+
+#IsJunkButton[disabled="true"] {
+  list-style-image: url("chrome://junquilla/skin/junkuser24disabled.png") !important;
+}
+
+toolbar[iconsize="small"] #IsJunkButton {
+  list-style-image: url("chrome://junquilla/skin/junkuser.png");
+}
+
+toolbar[iconsize="small"] #IsJunkButton[disabled="true"]{
+  list-style-image: url("chrome://junquilla/skin/junkuserdisabled.png") !important;
+}
+
+#IsGoodButton {
+  list-style-image: url("chrome://junquilla/skin/gooduser24.png");
+}
+
+#IsGoodButton[disabled="true"] {
+  list-style-image: url("chrome://junquilla/skin/gooduser24disabled.png") !important;
+}
+
+toolbar[iconsize="small"] #IsGoodButton {
+  list-style-image: url("chrome://junquilla/skin/gooduser.png");
+}
+
+toolbar[iconsize="small"] #IsGoodButton[disabled="true"]{
+  list-style-image: url("chrome://junquilla/skin/gooduserdisabled.png") !important;
+}
+
+#colJunkStatusPlus {
+  -moz-padding-start: 3px;
+  -moz-padding-end:   1px;
+}

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<RDF xmlns='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+     xmlns:em='http://www.mozilla.org/2004/em-rdf#'>
+
+  <Description about='urn:mozilla:install-manifest'>
+    <em:id>junquilla@mesquilla.com</em:id>
+    <em:version>1.1pre7</em:version>
+    <em:type>2</em:type> 
+    <em:name>JunQuilla</em:name>
+    <em:creator>R Kent James</em:creator>
+		<em:developer>Axel Grude</em:developer>
+    <em:description>Junk mail management by Mesquilla</em:description>
+    <em:homepageURL>http://mesquilla.com/extensions/junquilla</em:homepageURL>
+    <em:optionsURL>chrome://junquillaapp/content/junquillaSetupWindow.xul</em:optionsURL>
+		<em:iconURL>chrome://junquilla/skin/junquilla_32.png</em:iconURL>
+		<em:icon64URL>chrome://junquilla/skin/junquilla_64.png</em:icon64URL>
+		
+    <!-- Thunderbird -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
+        <em:minVersion>52.*</em:minVersion>
+        <em:maxVersion>60.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+    <!-- SeaMonkey -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+        <em:minVersion>2.34</em:minVersion>
+        <em:maxVersion>2.49.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+		
+		
+  </Description>
+</RDF>

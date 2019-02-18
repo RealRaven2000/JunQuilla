@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ **** BEGIN LICENSE BLOCK *****
+ * This file is part of Junquilla, Junk mail management by Mesquilla.
+ *
+ * Junquilla is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Junquilla.  If not, see <http://www.gnu.org/licenses/>.
+ * 
+ * Software distributed under the License is distributed on an "AS IS" basis,
+ * WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+ * for the specific language governing rights and limitations under the
+ * License.
+ *
+ * The Original Code is Junquilla code.
+ *
+ * The Initial Developer of the Original Code is
+ * Kent James <rkent@mesquilla.com>
+ * Portions created by the Initial Developer are Copyright (C) 2008
+ * the Initial Developer. All Rights Reserved.
+ *
+ * Contributor(s):
+ *
+ * ***** END LICENSE BLOCK *****
+ *
+ * Window for detail display of tokens and analysis for a single message
+ -->
+<?xml-stylesheet href='chrome://global/skin/global.css' type='text/css'?>
+<!DOCTYPE window SYSTEM "chrome://junquilla/locale/junquilla.dtd">
+<dialog
+  id     = "junquillaDetail"
+  buttons = "accept"
+  title  = "&junquilla.detailTitle;"
+  width  = "500"
+  height = "400"
+  xmlns  = "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+  onload = "junquilla.detailWindowLoad();"
+  onunload = "junquilla.detailWindowUnload();"
+  persist = "width height screenX screenY">
+  <script type="application/x-javascript" src="chrome://global/content/globalOverlay.js"/>
+  <script type='application/x-javascript' src='chrome://junquilla/content/junquilla.js'/>
+  <label id="junquillaDetailMessage" />
+  <tree editable="false" id="junquillaDetailTree" flex="1">
+    <treecols id="junquillaDetailTreeCols">
+      <treecol id="junquillaDetailColToken" label="&junquilla.token;" flex="4" primary="true"/>
+      <splitter class="tree-splitter"/>
+      <treecol id="junquillaDetailColPercent" label="&junquilla.tokenPercent;"/>
+      <splitter class="tree-splitter"/>
+      <treecol id="junquillaDetailColRunning" label="&junquilla.runningPercent;"/>
+    </treecols>
+    <treechildren id="junquillaDetailChildren" />
+  </tree>
+</dialog>
